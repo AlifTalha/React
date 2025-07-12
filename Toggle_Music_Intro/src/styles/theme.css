@@ -1,0 +1,47 @@
+.app {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Theme Icon */
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+/* Music Icon */
+.music-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.theme-toggle:hover,
+.music-toggle:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,15 @@
+.my-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: #0056b3;
+}
